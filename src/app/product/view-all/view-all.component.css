@@ -1,0 +1,10 @@
+.il{
+    height: 185px;
+    width: 188px;
+    border-radius: 100px;
+    border: 1px solid #edebe9;
+    cursor: pointer;
+}
+.il:hover {
+    border: 2px solid #7e458d;
+}

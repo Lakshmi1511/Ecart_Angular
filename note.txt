@@ -1,0 +1,46 @@
+fashion 2
+Beauty 1
+Jewellery 3
+
+Watches 1
+
+json server
+
+npm i --save json-server
+
+lazy loading
+------------
+lazy loaded module - loading time is less 
+
+ng g module moduleName --route moduleName --module app.module.ts 
+
+all product 
+single product
+add product
+edit product
+delete product
+
+New module
+----------
+ng g m moduleName
+ng g m moduleName --route
+
+root module(app module)
+   -- root componenet(app component)
+     * lazy loaded module (product module)
+       - lazy loaded root component (product componenet)
+       - new components
+     * normal module (site layout)
+       - new components (header & footer)
+
+ActivatedRoute in angular
+-------------------------
+A class used to access params from web url
+
+params()- method-asynchronous method
+
+Behaviour Subject
+-----------------
+rxjs- reactive extension for javascript - library
+-observable
+-BehaviourSubject - a class inside rxjs-used to module to module data sharing 
